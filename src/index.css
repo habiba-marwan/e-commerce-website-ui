@@ -1,13 +1,84 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+.me-auto{
+  align-content: end;
+  }
+  .nav-container{
+    border-radius: 200px;
+  }
+  .nav-image{
+    border-radius: 30px;
+    height: 60px;
+  }
+  .card-container{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .card{
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px hsla(0, 3%, 6%, 0.3);
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    max-width: 250px;
+    display: inline-block;
+  }
+  .card-image{
+    max-width: 80%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  .card-title{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    color: rgba(0, 0, 0, 0.825);
+  }
+  .card-text{
+    font-family: Arial, sans-serif;
+    color: hsla(0, 0%, 0%, 0.825);
+  }
+  .card-button{
+    background-color: rgb(241, 173, 89);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+  }
+  .card-selector{
+    margin: 10px;
+    background-color: rgba(240, 212, 178, 0.795);
+    color: white;
+  
+  }
+  .cart-heading{
+   width: 50%;
+   margin: auto;
+  }
+  .cart-button{
+    border-radius: 20px;
+    width: 20%;
+    margin: auto;
+  }
+  .login-container{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .login-button{
+    border-radius: 20px;
+    width: 40%;
+    margin: auto;
+  }
+  .register-container{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .register-button{
+    border-radius: 20px;
+    width: 40%;
+    margin: auto;
+  }
